@@ -9,10 +9,7 @@ import emailjs from "@emailjs/browser";
 import { toast, Toaster } from "react-hot-toast";
 
 const socials = [
-  { icon: <FaGithub />, url: "https://github.com/" },
-  { icon: <FaYoutube />, url: "https://youtube.com/" },
-  { icon: <FaInstagram />, url: "https://instagram.com/" },
-  { icon: <FaTwitter />, url: "https://twitter.com/" },
+  { icon: <FaGithub />, url: "https://github.com/Gauri-14" },
   { icon: <FaLinkedin />, url: "https://linkedin.com/" },
 ];
 
@@ -71,7 +68,7 @@ const Contact = () => {
       {/* Email Right */}
       <div className="hidden md:flex flex-col items-center absolute right-6 top-1/2 -translate-y-1/2 z-10">
         <a
-          href={`mailto:${email}`}
+          href= "mailto:gaurijc14@gmail.com"
           className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm mb-6 tracking-widest"
           style={{ writingMode: "vertical-rl" }}
         >
@@ -159,7 +156,7 @@ const Contact = () => {
         </form>
 
         <p className="md:hidden text-center mt-6 text-sm text-gray-500 dark:text-gray-400">
-          Or email me at <a href={`mailto:${email}`} className="underline">{email}</a>
+          Or email me at <a href="mailto:gaurijc14@gmail.com" className="underline">{email}</a>
         </p>
       </div>
 
