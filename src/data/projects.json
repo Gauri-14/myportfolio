@@ -1,0 +1,20 @@
+[
+  {
+    "title": "AutoCryptGuard",
+    "description": "A desktop AI-based cybersecurity toolkit with AES/RSA encryption, logging, and a React dashboard.",
+    "github": "https://github.com/yourusername/AutoCryptGuard",
+    "demo": "https://your-demo-link.com"
+  },
+  {
+    "title": "Student Credit Scoring System",
+    "description": "ML model that predicts student creditworthiness based on academic and financial history.",
+    "github": "https://github.com/yourusername/student-credit-score",
+    "demo": ""
+  },
+  {
+    "title": "Local URL Shortener",
+    "description": "A fast URL shortening tool using Java, Redis, and Spring Boot with QR code support.",
+    "github": "https://github.com/yourusername/url-shortener",
+    "demo": ""
+  }
+]
